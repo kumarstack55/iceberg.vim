@@ -91,11 +91,14 @@ function! iceberg#palette#dark#create() abort
   let g.tablinesel_fg = pgmnt#color#mix(g.normal_fg, g.normal_bg, 0.75)
   let g.todo_bg = g.green_tint_bg
   let g.todo_fg = g.green
+
+  " 選択時の強調を標準 +0.10 の +16% とする
   let g.visual_bg = pgmnt#color#adjust_color(
         \ g.normal_bg, {
         \   'saturation': +0.05,
-        \   'lightness': +0.10,
+        \   'lightness': +0.26,
         \ })
+
   let g.wildmenu_bg = pgmnt#color#lighten(g.statusline_bg, 0.30)
   let g.wildmenu_fg = g.statusline_fg
 
@@ -195,7 +198,10 @@ function! iceberg#palette#dark#create() abort
   let c.specialkey_fg = 236
   let c.todo_bg = c.normal_bg
   let c.todo_fg = c.green
-  let c.visual_bg = 236
+
+  " 選択時の強調を 25段階中の標準236の +16% で240とする
+  let c.visual_bg = 240
+
   let c.wildmenu_bg = 255
   let c.wildmenu_fg = c.statusline_fg
 
