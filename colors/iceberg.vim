@@ -5,7 +5,7 @@
 "
 " File:       iceberg.vim
 " Maintainer: cocopon <cocopon@me.com>
-" Modified:   2020-07-20 14:00+0300
+" Modified:   2020-10-17 14:12+0000
 " License:    MIT
 
 
@@ -293,7 +293,7 @@ else
   hi PmenuThumb ctermbg=251 ctermfg=NONE guibg=#c6c8d1 guifg=NONE
   hi PreProc ctermfg=150 guifg=#b4be82
   hi Question ctermfg=150 guifg=#b4be82
-  hi QuickFixLine ctermbg=236 ctermfg=252 guibg=#272c42 guifg=#c6c8d1
+  hi QuickFixLine ctermbg=240 ctermfg=252 guibg=#464e75 guifg=#c6c8d1
   hi Search ctermbg=216 ctermfg=234 guibg=#e4aa80 guifg=#392313
   hi SignColumn ctermbg=235 ctermfg=239 guibg=#1e2132 guifg=#444b71
   hi Special ctermfg=150 guifg=#b4be82
@@ -318,8 +318,8 @@ else
   hi Type ctermfg=110 gui=NONE guifg=#84a0c6
   hi Underlined cterm=underline ctermfg=110 gui=underline guifg=#84a0c6 term=underline
   hi VertSplit cterm=NONE ctermbg=233 ctermfg=233 gui=NONE guibg=#0f1117 guifg=#0f1117
-  hi Visual ctermbg=236 ctermfg=NONE guibg=#272c42 guifg=NONE
-  hi VisualNOS ctermbg=236 ctermfg=NONE guibg=#272c42 guifg=NONE
+  hi Visual ctermbg=240 ctermfg=NONE guibg=#464e75 guifg=NONE
+  hi VisualNOS ctermbg=240 ctermfg=NONE guibg=#464e75 guifg=NONE
   hi WildMenu ctermbg=255 ctermfg=234 guibg=#d4d5db guifg=#17171b
   hi diffAdded ctermfg=150 guifg=#b4be82
   hi diffRemoved ctermfg=203 guifg=#e27878
@@ -339,7 +339,7 @@ else
   hi gitmessengerEndOfBuffer ctermbg=235 ctermfg=239 guibg=#1e2132 guifg=#444b71
   hi gitmessengerPopupNormal ctermbg=235 ctermfg=252 guibg=#1e2132 guifg=#c6c8d1
   hi Sneak ctermbg=140 ctermfg=234 guibg=#a093c7 guifg=#161821
-  hi SneakScope ctermbg=236 ctermfg=242 guibg=#272c42 guifg=#6b7089
+  hi SneakScope ctermbg=240 ctermfg=242 guibg=#464e75 guifg=#6b7089
   hi SyntasticErrorSign ctermbg=235 ctermfg=203 guibg=#1e2132 guifg=#e27878
   hi SyntasticStyleErrorSign ctermbg=235 ctermfg=203 guibg=#1e2132 guifg=#e27878
   hi SyntasticStyleWarningSign ctermbg=235 ctermfg=216 guibg=#1e2132 guifg=#e2a478
